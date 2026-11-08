@@ -1,0 +1,161 @@
+{
+  "reach": {
+    "Lead": 5000,
+    "Contacted": 3406,
+    "Needs assessed": 1974,
+    "Quote accepted": 861,
+    "KYC complete": 588,
+    "Activated": 368
+  },
+  "baseline": {
+    "leads": 5000,
+    "activated": 368,
+    "conv": 7.4,
+    "days": 17.6,
+    "cac": 15053,
+    "churn": 15.2,
+    "calls": 3.0,
+    "nps": 6.9
+  },
+  "addressable": {
+    "drops": 1485,
+    "share_of_all_drops": 32.1,
+    "by_reason": {
+      "Owner had no time for a visit": 531,
+      "Visit not scheduled by sales": 296,
+      "Quote too complex to understand": 206,
+      "Quote took too long to arrive": 179,
+      "Missing GST or Udyam document": 94,
+      "Found paperwork too long": 79,
+      "Authorised signatory not available": 53,
+      "Document details did not match": 47
+    },
+    "recovery_assumption": 0.2,
+    "extra_activations_per_quarter": 97.9,
+    "extra_mrr_inr": 783239,
+    "extra_arr_inr": 9398863
+  },
+  "by_source": [
+    {
+      "lead_source": "Channel partner",
+      "leads": 1010,
+      "act": 81,
+      "spend": 1688930,
+      "cac": 20851.0,
+      "conv": 8.0
+    },
+    {
+      "lead_source": "Field sales",
+      "leads": 1720,
+      "act": 125,
+      "spend": 3041870,
+      "cac": 24335.0,
+      "conv": 7.3
+    },
+    {
+      "lead_source": "Inbound call",
+      "leads": 504,
+      "act": 48,
+      "spend": 245440,
+      "cac": 5113.0,
+      "conv": 9.5
+    },
+    {
+      "lead_source": "Referral",
+      "leads": 413,
+      "act": 61,
+      "spend": 250020,
+      "cac": 4099.0,
+      "conv": 14.8
+    },
+    {
+      "lead_source": "Website form",
+      "leads": 995,
+      "act": 43,
+      "spend": 273120,
+      "cac": 6352.0,
+      "conv": 4.3
+    },
+    {
+      "lead_source": "WhatsApp campaign",
+      "leads": 358,
+      "act": 10,
+      "spend": 40260,
+      "cac": 4026.0,
+      "conv": 2.8
+    }
+  ],
+  "churn_by_status_calls": {
+    "1": 5.9,
+    "2": 14.3,
+    "3": 11.7,
+    "4": 20.0,
+    "5": 27.9
+  },
+  "bundles": {
+    "micro": {
+      "segment": "micro",
+      "monthly": 1717,
+      "setup": 0,
+      "contract": 12,
+      "days": 5,
+      "items": [
+        "Biz Fibre 100 x1",
+        "Business Postpaid 299 x2"
+      ]
+    },
+    "micro_pos": {
+      "segment": "micro",
+      "monthly": 2406,
+      "setup": 2500,
+      "contract": 12,
+      "days": 5,
+      "items": [
+        "Biz Fibre 100 x1",
+        "Business Postpaid 299 x2",
+        "Cloud POS & Billing x1"
+      ]
+    },
+    "prof": {
+      "segment": "prof",
+      "monthly": 6110,
+      "setup": 0,
+      "contract": 12,
+      "days": 5,
+      "items": [
+        "Biz Fibre 300 x1",
+        "Business Postpaid 599 x3",
+        "Cloud Email & Office Suite x8",
+        "Endpoint Security x6",
+        "Cloud Backup 1 TB x1"
+      ]
+    },
+    "multi": {
+      "segment": "multi",
+      "monthly": 48881,
+      "setup": 72000,
+      "contract": 24,
+      "days": 14,
+      "items": [
+        "Biz Fibre 300 x8",
+        "Business Postpaid 599 x5",
+        "Backup 4G/5G Failover x8",
+        "Managed SD-WAN x8",
+        "Cloud POS & Billing x8"
+      ]
+    },
+    "mfg": {
+      "segment": "mfg",
+      "monthly": 16434,
+      "setup": 14000,
+      "contract": 24,
+      "days": 21,
+      "items": [
+        "Internet Leased Line 20 x1",
+        "Business Postpaid 599 x5",
+        "Cloud Email & Office Suite x10",
+        "Managed Firewall x1"
+      ]
+    }
+  }
+}
