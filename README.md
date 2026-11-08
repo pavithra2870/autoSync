@@ -2,6 +2,10 @@
 
 A phone-first journey that takes a small business owner from "what do I need?" to "my order is being installed" in one sitting, in their own language, with **everything running locally** (local LLM, local OCR, no cloud AI).
 
+▶ **Demo video (3 min):** <https://vimeo.com/1244849273>
+
+[![Watch the demo](docs/video_thumbnail.webp)](https://vimeo.com/1244849273)
+
 **Journey:** language → AI advisor chat (asks what troubles the business, pack builds live on screen) → a plan that sells honestly (3 packs, "you told us, here's the fix", pack vs buying separately, online sign-up offers) → consent + Smart KYC → e-sign → order tracker. Plus a back-office view for sales and partners. No phone number or OTP is asked.
 
 ![Journey](docs/figures/journey.svg)
